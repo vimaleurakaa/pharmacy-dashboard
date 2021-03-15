@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@import "./components/form";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.spacer-30 {
+  padding: 30px;
+}
+
+nav {
+  position: relative;
+  z-index: 999;
+}
+
+#home {
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.781),
+      rgba(255, 255, 255, 0.774)
+    ),
+    url(../assets/images/mountain.jpeg);
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 500;
+
+  & img {
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+  }
+}
+
+.orders_table {
+  background-color: #fff;
+}
+
+.order_time {
+  display: block;
+  color: #6a6a6ac7;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.filter_order_wrapper {
+  background-color: #fff;
+}
+
+.med_name {
+  width: 160px;
+}
+
+.med_brand {
+  width: 200px;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
