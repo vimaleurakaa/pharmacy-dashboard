@@ -1,2 +1,2 @@
 # pharmacy-dashboard 
-<a href="#">LIVE DEMO</a>
+<a href="https://vimaleurakaa.github.io/pharmacy-dashboard/">LIVE DEMO</a>
