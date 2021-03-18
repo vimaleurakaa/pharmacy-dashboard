@@ -21,7 +21,7 @@ function logInHandler() {
       .then((data) => {
         alert("Login Successful!");
         localStorage.setItem("logged", true);
-        window.location.assign("/orders.html");
+        window.location.assign("./orders.html");
       });
   } else {
     alert(
